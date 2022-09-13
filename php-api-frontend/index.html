@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>APIs frontend</title>
+</head>
+<body>
+    <div class="palindrome">
+        <h1>Check if your string is palindrome:</h1>
+        <form action = "<?php $_PHP_SELF ?>" method = "GET">
+            <input type="text" id="palindrome_string" placeholder="Input string" name="string">
+            <input type="submit" value="Submit" id="submit_pal">
+        </form>
+        <p id="palindrome_output"></p>
+    </div>
+        <div class="equation">
+        <h1>Input three numbers where the second number is not zero <br>a^3 + b*c - a/b: </h1>
+        <form action = "<?php $_PHP_SELF ?>" method = "POST">
+            <input type="number" id="number_a" placeholder="a" name="a">
+            <input type="number" id="number_b" placeholder="b" name="b">
+            <input type="number" id="number_c" placeholder="c" name="c">
+            <input type="submit" value="Submit" id="submit_eq">
+        </form>
+        <p id="equation_output"></p>
+    </div>
+    <div class="password">
+        <h1>Check your password's strength</h1>
+        <form action = "<?php $_PHP_SELF ?>" method = "POST">
+            <input type="password" id="password" placeholder="Password" name="password">
+            <input type="submit" value="Submit" id="submit-pass">
+        </form> 
+        <p id="password_output"></p>
+    </div>
+    <div class="christmas">
+        <h1>Input the day and the month to know how many days are left for christmas:</h1>
+        <form action = "<?php $_PHP_SELF ?>" method = "GET">
+            <input type="number" id="month" placeholder="M" name="month">
+            <input type="number" id="day" placeholder="D" name="day">
+            <input type="submit" value="Submit" id="submit_chris">
+        </form>
+        <p id="christmas_output"></p>
+    </div>
+</body>
+</html>

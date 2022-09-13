@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: gray;
+}
+
+.palindrome,
+.equation,
+.password,
+.christmas {
+	display: flex;
+	margin: 20px auto;
+	width: 50%;
+	background-color: rgb(15, 15, 55);
+	gap: 20px;
+	border-radius: 10px;
+	padding: 20px 10px;
+	align-items: center;
+}
+
+h1 {
+	font-size: 20px;
+	width: 20vw;
+	color: white;
+}
+
+#palindrome_string,
+#number_a,
+#number_b,
+#number_c,
+#month,
+#day {
+	width: 10vw;
+	font-size: 15px;
+	padding: 5px 5px;
+	border-radius: 5px;
+	color: gray;
+	height: 30px;
+}
+
+p {
+	font-size: 15px;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#number_a,
+#number_b,
+#number_c,
+#month,
+#day {
+	width: 3vw !important;
+	height: 50px;
+}
